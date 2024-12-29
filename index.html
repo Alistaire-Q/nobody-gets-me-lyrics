@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alistaire music</title>
+    <link rel="stylesheet" href="test.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="background"></div>
+    <button id="close-popup" class="popup-close" onclick="window.location.href='index.html'">
+    </button>
+
+    <div class="lukaku">
+        <div class="poster">
+            <div class="album-art">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrPfjms52IpU5GIDl0yBic_BhiEop8CwUFAYcxfkUUJFLZAsc0lNTxD7N-&s=10" alt="Album Cover">
+            </div>
+        </div>
+        <audio id="album-audio" src=""></audio>
+        <div class="track-info">
+            <div class="track-title">
+                <h2>Nobody Gets Me</h2>
+                <div class="likesave">
+                    <label class="ui-like left-like">
+                        <label class="container">
+                            <input type="checkbox" checked="checked">
+                            <svg class="save-regular" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512"><path d="M0 48C0 21.5 21.5 0 48 0l0 48V441.4l130.1-92.9c8.3-6 19.6-6 27.9 0L336 441.4V48H48V0H336c26.5 0 48 21.5 48 48V488c0 9-5 17.2-13 21.3s-17.6 3.4-24.9-1.8L192 397.5 37.9 507.5c-7.3 5.2-16.9 5.9-24.9 1.8S0 497 0 488V48z"></path></svg>
+                            <svg class="save-solid" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512"><path d="M0 48V487.7C0 501.1 10.9 512 24.3 512c5 0 9.9-1.5 14-4.4L192 400 345.7 507.6c4.1 2.9 9 4.4 14 4.4c13.4 0 24.3-10.9 24.3-24.3V48c0-26.5-21.5-48-48-48H48C21.5 0 0 21.5 0 48z"></path></svg>
+                        </label>
+                    </label>
+                    <label class="ui-like right-like">
+                        <input type="checkbox">
+                        <div class="like">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill=""><path d="M20.808,11.079C19.829,16.132,12,20.5,12,20.5s-7.829-4.368-8.808-9.421C2.227,6.1,5.066,3.5,8,3.5a4.444,4.444,0,0,1,4,2,4.444,4.444,0,0,1,4-2C18.934,3.5,21.773,6.1,20.808,11.079Z"></path></svg>
+                        </div>
+                    </label>
+                </div>
+            </div>
+            <p>SZA</p>
+        </div>
+    </div>
+        
+        <style id="hide-scrollbar">* {scrollbar-width: none !important; scrollbar-color: unset !important;} ::-webkit-scrollbar {display: none;}</style>
+        <div class="music-player">
+        <div class="progress-bar">
+            <input id="progress-slider" type="range" min="0" max="240" value="0" class="slider">
+            <div class="time-container">
+                <span id="current-time" class="current-time">0:00</span>
+                <span id="total-time" class="total-time">3:03</span>
+            </div>
+        </div>        
+        <div class="controls">
+            <button id="shuffle" class="control-btn">
+                <img src="file/shuffle.png" alt="">
+            </button>
+            <button id="left" class="control-btn">
+                <img src="file/arrow_right.png" alt="left">
+            </button>
+            <audio id="audio-player" src="file/SZA - Nobody Gets Me (Audio).mp3"></audio>
+            <button id="play-pause-btn" class="play-btn">
+                <img id="play-pause-icon" src="file/play.png" alt="Play">
+            </button>
+            <button id="right" class="control-btn">
+                <img src="file/arrow_right.png" alt="right">
+            </button>
+            <button id="loop" class="control-btn">
+                <img src="file/loop.png" alt="">
+            </button>
+        </div>
+        <div class="volume-bar">
+            <div class="volume-container">
+                <img src="file/icon-volume.png" alt="" class="loop-icon">
+            </div>
+            <input id="volume-slider" type="range" min="0" max="100" value="50" class="slider">
+        </div>
+    </div>
+    </div>
+<div class="lyrics-container">
+    <div class="lyrics">
+        <p data-time="">ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ </p>
+        <p data-time="1">...</p>
+        <p data-time="20">Took a long vacation, No makeup, just Jay-Z</p>
+        <p data-time="24.7">You were balls deep, now we beefin' Had me butt-naked at the MGM</p>
+        <p data-time="29">So wasted screamin', "Fuck that", Love me now, but I'm anythin'</p>
+        <p data-time="34">Hurry now, baby, stick it in 'Fore the memories get to kickin' in</p>
+        <p data-time="39">It's too late I don't wanna lose </p>
+        <p data-time="43">what's left of you</p>
+        <p data-time="45">How am I supposed to tell ya? I don't wanna see you with anyone but me</p>
+        <p data-time="51">Nobody gets me like you How am I supposed to let you go?</p>
+        <p data-time="57">Only like myself when I'm with you</p>
+        <p data-time="60">Nobody gets me, you do (do) You do</p>
+        <p data-time="70">Nobody gets me, you do (do) You do</p>
+        <p data-time="80">Nobody gets me, you do</p>
+        <p data-time="86">You do..</p>
+        <p data-time="89.8">Nobody gets me, you do</p>
+        <p data-time="92">Took me out to the ballet You proposed, I went on the road</p>
+        <p data-time="96.5">You was feelin' empty, so you left me Now I'm stuck dealin' with a deadbeat</p>
+        <p data-time="102">If I'm real, I deserve less, If I was you, I wouldn't take me back</p>
+        <p data-time="106">I pretend when I'm with a man, it's you</p>
+        <p data-time="108.5"> it's you And I know that it's too late I don't wanna lose</p>
+        <p data-time="115"> what's left of you</p>
+        <p data-time="117.4">How am I supposed to tell ya? I don't wanna see you with anyone but me</p>
+        <p data-time="123">Nobody gets me like you How am I supposed to let you go?</p>
+        <p data-time="129">Only like myself when I'm with you</p>
+        <p data-time="133">Nobody gets me, you do (do) You do</p>
+        <p data-time="142">Nobody gets me, do (do) You do</p>
+        <p data-time="152">Nobody gets me, you do</p>
+        <p data-time="158">You do Nobody gets me, you do (do, ooh)</p>
+        <p data-time="161.5">Nobody gets me, you do</p>
+        <p data-time="268" class="line"  style="font-size: 20px; font-weight: 100; font-stretch: 50%; font-family: 'Poppins', 'Arial', sans-serif;">Writer(s): SZA, Qolby</p>
+        <p data-time="2000">ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ </p>
+        <p data-time="2100">ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ </p>
+        <!-- Tambahkan lirik lainnya di sini -->
+    </div>
+    </div>
+</div>
+</div>  
+<script src="test.js"></script>
+</body>
+</html>
